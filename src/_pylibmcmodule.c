@@ -2484,7 +2484,7 @@ static PyObject *_PylibMC_Unpickle_Bytes(PyObject *val) {
 }
 
 static PyObject *_PylibMC_Pickle(PyObject *val) {
-    return PyObject_CallFunction(_PylibMC_pickle_dumps, "Oi", val, -1);
+    return PyObject_CallFunction(_PylibMC_pickle_dumps, "Oi", val, 2);
 }
 /* }}} */
 

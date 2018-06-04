@@ -7,6 +7,13 @@ __ http://sendapatch.se/projects/pylibmc/
 .. image:: https://travis-ci.org/lericson/pylibmc.png?branch=master
    :target: https://travis-ci.org/lericson/pylibmc
 
+
+Temporary fork
+==============
+
+Temporary fork to pin the pickle protocol to 2 to simultaneously support
+clients running python 2 and 3
+
 New in version 1.5.0
 ====================
 
